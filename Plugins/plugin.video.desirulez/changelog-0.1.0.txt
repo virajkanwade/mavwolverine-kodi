@@ -1,0 +1,29 @@
+v0.1.0
+- Refactor to use urlresolver
+
+v0.0.9
+- Handle Avast blocking urls
+
+v0.0.8
+- More fixes
+
+v0.0.7
+- Use urlresolver
+
+v0.0.6
+- Vidto Link
+
+v0.0.5
+- Watch Online - Flash
+
+v0.0.4
+- Watchvideo Link - single videos
+
+v0.0.3
+- Letwatch Link - single videos
+
+v0.0.2
+- LetWatch videos
+
+v0.0.1
+- Initial version
