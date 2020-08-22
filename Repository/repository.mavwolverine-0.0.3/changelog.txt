@@ -1,0 +1,8 @@
+[B]Version 0.0.3[/B]
+- Update plugins
+
+[B]Version 0.0.2[/B]
+- Added plugin.video.desirulez
+
+[B]Version 0.0.1[/B]
+- Initial version
