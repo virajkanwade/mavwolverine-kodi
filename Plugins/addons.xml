@@ -21,4 +21,33 @@
         <source>https://github.com/virajkanwade/plugin.video.desirulez</source>
     </extension>
   </addon>
+
+  <addon id="plugin.video.zee5" name="Zee5" version="0.0.1" provider-name="mavwolverine">
+    <requires>
+      <import addon="xbmc.python" version="2.26.0" />
+      <import addon="script.module.beautifulsoup4" version="4.6.2" />
+      <import addon="script.module.urlresolver" version="5.0.55" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Addon for videos from https://www.zee5.com/</summary>
+      <description lang="en_GB">Addon for videos from https://www.zee5.com/</description>
+      <disclaimer lang="en_GB">https://www.zee5.com/ could change anytime breaking this addon</disclaimer>
+      <language>en</language> <!-- the language of the videos or other content the plugin provides, may be omitted in case the addon does not provide any content -->
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+      <source>https://github.com/virajkanwade/plugin.video.zee5</source>
+      <news>v0.0.1 (09/09/2020)
+          [new] initial version
+      </news>
+      <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
 </addons>
