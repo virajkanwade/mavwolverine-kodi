@@ -50,4 +50,27 @@
       </assets>
     </extension>
   </addon>
+
+  <addon id="plugin.video.smartcric" name="smartcric" version="0.0.1" provider-name="mavwolverine">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="script.module.urlresolver" version="5.0.55"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Addon for videos from http://www.smartcric.com/</summary>
+        <description lang="en">Addon for videos from http://www.smartcric.com/</description>
+        <disclaimer lang="en">http://www.smartcric.com/ could change anytime breaking this addon</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <website>https://github.com/virajkanwade/plugin.video.smartcric</website>
+        <source>https://github.com/virajkanwade/plugin.video.smartcric</source>
+    </extension>
+  </addon>
 </addons>
