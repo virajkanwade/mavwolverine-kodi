@@ -1,0 +1,14 @@
+[B]Version 0.0.5[/B]
+- Added plugin.video.smartcric
+
+[B]Version 0.0.4[/B]
+- Added plugin.video.zee5
+
+[B]Version 0.0.3[/B]
+- Update plugins
+
+[B]Version 0.0.2[/B]
+- Added plugin.video.desirulez
+
+[B]Version 0.0.1[/B]
+- Initial version
