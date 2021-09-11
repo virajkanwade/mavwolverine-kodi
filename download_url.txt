@@ -1,0 +1,2 @@
+curl -s 'https://api.github.com/search/code?q=user:virajkanwade+filename:plugin.video.myremoteplayer-0.0.1.zip' | jq '.items[].url' | xargs curl -s | jq '.download_url'
+
